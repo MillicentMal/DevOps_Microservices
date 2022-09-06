@@ -35,7 +35,7 @@ source .devops/bin/activate
 ## Files
 1. app.py - Contains the main application written in python which can be run as a standalone using "python app.py"
 2. run_docker.sh - builds the docker image,and runs the app in docker
-3. run_kubernetes.sh runs the app in kubernetes
-4. upload_docker.sh contains instructions to upload the docker image to a repository on docker
-5. requirements.txt contains all the required dependencies for app.py to run
+3. run_kubernetes.sh - runs the app in kubernetes
+4. upload_docker.sh - contains instructions to upload the docker image to a repository on docker
+5. requirements.txt - contains all the required dependencies for app.py to run
 
