@@ -1,0 +1,153 @@
+Name:         project-4-ml
+Namespace:    default
+Priority:     0
+Node:         minikube/192.168.49.2
+Start Time:   Wed, 31 Aug 2022 23:49:06 +0200
+Labels:       app=project-4-ml
+Annotations:  <none>
+Status:       Pending
+IP:           172.17.0.3
+IPs:
+  IP:  172.17.0.3
+Containers:
+  project-4-ml:
+    Container ID:   
+    Image:          millicentmalinga/project-4-ml
+    Image ID:       
+    Port:           80/TCP
+    Host Port:      0/TCP
+    State:          Waiting
+      Reason:       ImagePullBackOff
+    Ready:          False
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-d9n46 (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             False 
+  ContainersReady   False 
+  PodScheduled      True 
+Volumes:
+  kube-api-access-d9n46:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                    From               Message
+  ----     ------     ----                   ----               -------
+  Normal   Scheduled  6m43s                  default-scheduler  Successfully assigned default/project-4-ml to minikube
+  Normal   BackOff    2m20s (x2 over 4m42s)  kubelet            Back-off pulling image "millicentmalinga/project-4-ml"
+  Warning  Failed     2m20s (x2 over 4m42s)  kubelet            Error: ImagePullBackOff
+  Normal   Pulling    2m9s (x3 over 6m42s)   kubelet            Pulling image "millicentmalinga/project-4-ml"
+  Warning  Failed     10s (x3 over 4m43s)    kubelet            Failed to pull image "millicentmalinga/project-4-ml": rpc error: code = Unknown desc = context deadline exceeded
+  Warning  Failed     10s (x3 over 4m43s)    kubelet            Error: ErrImagePull
+Name:         project-4-ml
+Namespace:    default
+Priority:     0
+Node:         minikube/192.168.49.2
+Start Time:   Wed, 31 Aug 2022 23:49:06 +0200
+Labels:       app=project-4-ml
+Annotations:  <none>
+Status:       Pending
+IP:           172.17.0.3
+IPs:
+  IP:  172.17.0.3
+Containers:
+  project-4-ml:
+    Container ID:   
+    Image:          millicentmalinga/project-4-ml
+    Image ID:       
+    Port:           80/TCP
+    Host Port:      0/TCP
+    State:          Waiting
+      Reason:       ImagePullBackOff
+    Ready:          False
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-d9n46 (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             False 
+  ContainersReady   False 
+  PodScheduled      True 
+Volumes:
+  kube-api-access-d9n46:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                  From               Message
+  ----     ------     ----                 ----               -------
+  Normal   Scheduled  10m                  default-scheduler  Successfully assigned default/project-4-ml to minikube
+  Normal   Pulling    3m10s (x4 over 10m)  kubelet            Pulling image "millicentmalinga/project-4-ml"
+  Warning  Failed     71s (x4 over 8m32s)  kubelet            Failed to pull image "millicentmalinga/project-4-ml": rpc error: code = Unknown desc = context deadline exceeded
+  Warning  Failed     71s (x4 over 8m32s)  kubelet            Error: ErrImagePull
+  Warning  Failed     46s (x7 over 8m31s)  kubelet            Error: ImagePullBackOff
+  Normal   BackOff    19s (x9 over 8m31s)  kubelet            Back-off pulling image "millicentmalinga/project-4-ml"
+Name:         project-4-ml
+Namespace:    default
+Priority:     0
+Node:         minikube/192.168.49.2
+Start Time:   Wed, 31 Aug 2022 23:49:06 +0200
+Labels:       app=project-4-ml
+Annotations:  <none>
+Status:       Pending
+IP:           172.17.0.3
+IPs:
+  IP:  172.17.0.3
+Containers:
+  project-4-ml:
+    Container ID:   
+    Image:          millicentmalinga/project-4-ml
+    Image ID:       
+    Port:           80/TCP
+    Host Port:      0/TCP
+    State:          Waiting
+      Reason:       ImagePullBackOff
+    Ready:          False
+    Restart Count:  0
+    Environment:    <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-d9n46 (ro)
+Conditions:
+  Type              Status
+  Initialized       True 
+  Ready             False 
+  ContainersReady   False 
+  PodScheduled      True 
+Volumes:
+  kube-api-access-d9n46:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    ConfigMapOptional:       <nil>
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type     Reason     Age                  From               Message
+  ----     ------     ----                 ----               -------
+  Normal   Scheduled  16m                  default-scheduler  Successfully assigned default/project-4-ml to minikube
+  Normal   Pulling    9m24s (x4 over 16m)  kubelet            Pulling image "millicentmalinga/project-4-ml"
+  Warning  Failed     7m25s (x4 over 14m)  kubelet            Error: ErrImagePull
+  Warning  Failed     7m (x7 over 14m)     kubelet            Error: ImagePullBackOff
+  Normal   BackOff    6m33s (x9 over 14m)  kubelet            Back-off pulling image "millicentmalinga/project-4-ml"
+  Warning  Failed     58s (x5 over 14m)    kubelet            Failed to pull image "millicentmalinga/project-4-ml": rpc error: code = Unknown desc = context deadline exceeded

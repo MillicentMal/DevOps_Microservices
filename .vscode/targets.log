@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 22 13:35:33 2022
+# Make data base, printed on Tue Sep  6 09:48:01 2022
 
 # Variables
 
@@ -42,22 +42,23 @@ GDMSESSION = ubuntu
 XMODIFIERS = @im=ibus
 # makefile
 CURDIR := /home/millicent/DevOps_Microservices
+ 
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/105
+SNAP_DATA = /var/snap/code/106
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:39580
+JOURNAL_STREAM = 8:39578
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
 SNAP_ARCH = amd64
-# makefile
-MAKEFILE_LIST := 
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
 # automatic
 @F = $(notdir $@)
 # environment
@@ -69,15 +70,15 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-_ = /snap/code/105/usr/share/code/code
+_ = /snap/code/106/usr/share/code/code
 # environment
-MANAGERPID = 1118
+MANAGERPID = 1074
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/millicent
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/106/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -85,27 +86,25 @@ PATH = /home/millicent/.local/bin:/home/millicent/.nvm/versions/node/v14.4.0/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/millicent-HP-ProBook-430-G7:@/tmp/.ICE-unix/1430,unix/millicent-HP-ProBook-430-G7:/tmp/.ICE-unix/1430
+SESSION_MANAGER = local/millicent-HP-ProBook-430-G7:@/tmp/.ICE-unix/1425,unix/millicent-HP-ProBook-430-G7:/tmp/.ICE-unix/1425
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/millicent/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/105
+SNAP = /snap/code/106
 # environment
 NVM_BIN = /home/millicent/.nvm/versions/node/v14.4.0/bin
 # environment
-SNAP_VERSION = e4503b30
+SNAP_VERSION = 784b0177
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
-DISABLE_WAYLAND = 1
-# environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 00724330d295457aa0f249a118cc7d36
+INVOCATION_ID = 303b2bef63594bea944e90efac2a19ba
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/106/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -115,7 +114,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5296
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2339
 # automatic
 %F = $(notdir $%)
 # environment
@@ -127,7 +126,7 @@ PWD = /home/millicent/DevOps_Microservices
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1360
+SSH_AGENT_PID = 1362
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -141,11 +140,11 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/millicent/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CODE_CACHE_PATH = /home/millicent/.config/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
 # environment
 LOGNAME = millicent
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
@@ -173,7 +172,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/millicent/snap/code/105
+SNAP_USER_DATA = /home/millicent/snap/code/106
 # environment
 SHLVL = 0
 # environment
@@ -183,9 +182,9 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = millicent
 # environment
-SNAP_REVISION = 105
+SNAP_REVISION = 106
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := setup
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # automatic
@@ -199,7 +198,7 @@ MAKE_COMMAND := make
 # environment
 LANGUAGE = en_BW:en
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-4531e981-1.70.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-4531e981-1.71.0-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
@@ -249,9 +248,9 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 5348
+VSCODE_PID = 2390
 # variable set hash-table stats:
-# Load=120/1024=12%, Rehash=0, Collisions=17/142=12%
+# Load=119/1024=12%, Rehash=0, Collisions=17/147=12%
 
 # Pattern-specific Variable Values
 
@@ -259,9 +258,9 @@ VSCODE_PID = 5348
 
 # Directories
 
-# . (device 66309, inode 1446453): 13 files, no impossibilities.
+# . (device 66309, inode 1446453): 23 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 23 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -269,26 +268,45 @@ VSCODE_PID = 5348
 
 # Files
 
-# Not a target:
-all:
+setup:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 9):
+	# Create python virtualenv & source it
+	# source ~/.devops/bin/activate
+	python3 -m venv ~/.devops
+
+all: install lint test
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-08-22 12:11:35.818689637
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
 
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	# Additional, optional, tests could go here
+	#python -m pytest -vv --cov=myrepolib tests/*.py
+	#python -m pytest --nbval notebook.ipynb
 
 # Not a target:
 .DEFAULT:
@@ -296,30 +314,61 @@ makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-GNUmakefile:
-#  Implicit rule search has been done.
-#  File does not exist.
- 
-make: *** No rule to make target 'all'.  Stop.
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
+	# This is linter for Dockerfiles
+	hadolint Dockerfile
+	# This is a linter for Python source code linter: https://www.pylint.org/
+	# This should be run from inside a virtualenv
+	pylint --disable=R,C,W1203,W1202 app.py
 
+install:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
 #  File has been updated.
-#  Failed to be updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := install
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 14):
+	# This should be run from inside a virtualenv
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
 
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 281 B / avg = 13 B
-# current buf: size = 8162 B / used = 281 B / count = 21 / avg = 13 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 342 B / avg = 10 B
+# current buf: size = 8162 B / used = 342 B / count = 32 / avg = 10 B
 
-# strcache performance: lookups = 24 / hit rate = 12%
+# strcache performance: lookups = 46 / hit rate = 30%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=1/24=4%
-# Finished Make data base on Mon Aug 22 13:35:33 2022
+# Load=32/8192=0%, Rehash=0, Collisions=1/46=2%
+# Finished Make data base on Tue Sep  6 09:48:01 2022
 
  
